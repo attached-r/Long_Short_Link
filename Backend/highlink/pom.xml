@@ -88,15 +88,20 @@
         <!-- Redisson（含布隆过滤器） -->
         <dependency>
             <groupId>org.redisson</groupId>
-            <artifactId>redisson-spring-boot-starter</artifactId>
-            <version>3.26.0</version> <!-- 推荐使用最新稳定版 -->
+            <artifactId>redisson</artifactId>
+            <version>3.45.0</version> <!-- 升级到支持 Spring Boot 4.x 的版本 -->
         </dependency>
         <!-- 序列化依赖 -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
         </dependency>
-
+        <!-- Knife4j 适配 Spring Boot 3.x/4.x -->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+            <version>4.4.0</version>
+        </dependency>
     </dependencies>
 
     <build>
