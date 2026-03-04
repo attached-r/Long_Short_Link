@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: highlink
+
+# 配置MySql数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/short_url  #连接地址
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ${DB_PASSWORD:20050603RJ} # 密码
+
+  # 配置redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: ${REDIS_PASSWORD:20050603RJ}
+      database: 2   # 数据库索引，从2开始
+      timeout: 10000
+
+# 配置mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #映射 文件
+  type-aliases-package: rj.highlink.entity  #实体类包
+  configuration:
+    map-underscore-to-camel-case: true  # 驼峰命名
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印sql
+
+# 服务器配置
+server:
+  port: 8080
