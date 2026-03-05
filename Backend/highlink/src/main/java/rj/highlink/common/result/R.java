@@ -2,7 +2,7 @@ package rj.highlink.common.result;
 
 import lombok.Data;
 
-/*
+/**
  * 统一API响应结果
  * @param <T> 数据泛型
  */

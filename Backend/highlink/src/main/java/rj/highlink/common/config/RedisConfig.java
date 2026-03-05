@@ -13,7 +13,7 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 
-/*
+/**
  * Redis 核心配置类：
  * 1. 自定义 RedisTemplate（解决默认序列化乱码问题）
  * 2. 初始化 RedissonClient（封装 Redis 连接）

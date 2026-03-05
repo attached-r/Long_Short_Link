@@ -1,6 +1,6 @@
 package rj.highlink.utils;
 
-/*
+/**
  * Base62 编码工具类
  * 用于将长整型 ID 转换为短码，支持添加随机盐防止遍历
  */

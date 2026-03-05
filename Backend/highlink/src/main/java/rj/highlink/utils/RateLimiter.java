@@ -8,7 +8,7 @@ import jakarta.annotation.Resource;
 import java.util.Collections;
 import java.util.List;
 
-/*
+/**
  * Redis 限流工具类：基于 Lua 脚本实现令牌桶/固定窗口限流
  * 特点：Lua 脚本保证原子性，避免并发问题
  * 该版本适用于短链系统，可扩展到高并发场景，其中Lua脚本可以后续优化，这里不做更改

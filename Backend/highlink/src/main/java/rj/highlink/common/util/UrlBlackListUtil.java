@@ -3,7 +3,7 @@ package rj.highlink.common.util;
 import java.net.URI;
 import java.util.Set;
 
-/*
+/**
  * URL 格式校验
  * 链接黑名单工具类
  */

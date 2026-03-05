@@ -1,0 +1,80 @@
+2026-03-05 15:02:52.152 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-05 15:02:52.190 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 23956 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-05 15:02:52.190 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-05 15:02:52.191 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-05 15:02:52.740 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration-Searching for mappers annotated with @Mapper
+2026-03-05 15:02:52.740 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration-Using auto-configuration base package 'rj.highlink'
+2026-03-05 15:02:52.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-05 15:02:52.854 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-05 15:02:52.874 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2026-03-05 15:02:52.949 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]
+2026-03-05 15:02:52.949 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkStatsDailyMapper.class]
+2026-03-05 15:02:52.949 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkVisitMapper.class]
+2026-03-05 15:02:52.950 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'shortLinkMapper' and 'rj.highlink.mapper.ShortLinkMapper' mapperInterface
+2026-03-05 15:02:52.953 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'shortLinkStatsDailyMapper' and 'rj.highlink.mapper.ShortLinkStatsDailyMapper' mapperInterface
+2026-03-05 15:02:52.953 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'shortLinkVisitMapper' and 'rj.highlink.mapper.ShortLinkVisitMapper' mapperInterface
+2026-03-05 15:02:53.461 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-05 15:02:53.470 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-05 15:02:53.471 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-05 15:02:53.471 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-05 15:02:53.513 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1278 ms
+2026-03-05 15:02:53.610 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-05 15:02:53.991 [redisson-netty-1-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-05 15:02:54.003 [redisson-netty-1-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-05 15:02:54.295 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean-Property 'mapperLocations' was not specified.
+2026-03-05 15:02:54.600 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration-Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2026-03-05 15:02:54.759 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-05 15:02:54.767 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-05 15:02:54.772 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.922 seconds (process running for 4.275)
+2026-03-05 15:03:03.917 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-05 15:03:03.932 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-05 16:06:27.981 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-05 16:06:28.019 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 9652 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-05 16:06:28.019 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-05 16:06:28.020 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-05 16:06:28.451 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration-Searching for mappers annotated with @Mapper
+2026-03-05 16:06:28.452 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration-Using auto-configuration base package 'rj.highlink'
+2026-03-05 16:06:28.533 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-05 16:06:28.535 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-05 16:06:28.551 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2026-03-05 16:06:28.613 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]
+2026-03-05 16:06:28.613 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkStatsDailyMapper.class]
+2026-03-05 16:06:28.613 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkVisitMapper.class]
+2026-03-05 16:06:28.614 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'shortLinkMapper' and 'rj.highlink.mapper.ShortLinkMapper' mapperInterface
+2026-03-05 16:06:28.615 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'shortLinkStatsDailyMapper' and 'rj.highlink.mapper.ShortLinkStatsDailyMapper' mapperInterface
+2026-03-05 16:06:28.616 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'shortLinkVisitMapper' and 'rj.highlink.mapper.ShortLinkVisitMapper' mapperInterface
+2026-03-05 16:06:29.014 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-05 16:06:29.022 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-05 16:06:29.023 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-05 16:06:29.023 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-05 16:06:29.060 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1011 ms
+2026-03-05 16:06:29.146 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-05 16:06:29.436 [redisson-netty-1-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-05 16:06:29.447 [redisson-netty-1-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-05 16:06:29.679 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean-Property 'mapperLocations' was not specified.
+2026-03-05 16:06:29.953 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration-Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2026-03-05 16:06:30.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-05 16:06:30.087 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-05 16:06:30.093 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.421 seconds (process running for 3.242)
+2026-03-05 16:08:27.028 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-05 16:08:27.034 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-05 16:09:50.738 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-05 16:09:50.762 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 9008 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-05 16:09:50.762 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-05 16:09:50.763 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-05 16:09:51.350 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-05 16:09:51.352 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-05 16:09:51.368 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2026-03-05 16:09:51.785 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-05 16:09:51.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-05 16:09:51.795 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-05 16:09:51.795 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-05 16:09:51.837 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1039 ms
+2026-03-05 16:09:51.931 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-05 16:09:52.217 [redisson-netty-1-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-05 16:09:52.229 [redisson-netty-1-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-05 16:09:52.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-05 16:09:52.883 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-05 16:09:52.888 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.396 seconds (process running for 3.133)
+2026-03-05 16:09:58.505 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-05 16:09:58.509 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete

@@ -29,3 +29,9 @@ mybatis:
 # 服务器配置
 server:
   port: 8080
+
+logging:
+  level:
+    root: INFO  # 只显示 INFO 及以上级别
+    org.mybatis: WARN  # 关闭 MyBatis 的 DEBUG 日志
+    org.springframework.boot: INFO

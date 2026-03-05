@@ -3,7 +3,7 @@ package rj.highlink.utils;
 import cn.hutool.core.lang.Snowflake;
 import cn.hutool.core.util.IdUtil;
 
-/*
+/**
  * 雪花算法生成ID
  */
 
