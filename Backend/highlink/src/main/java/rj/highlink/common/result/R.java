@@ -71,4 +71,9 @@ public class R<T> {
         r.setMessage(message);
         return r;
     }
+    // 重写toString，避免误用
+    @Override
+    public String toString() {
+        return String.format("R{code=%d, message='%s', data=%s}", code, message, data);
+    }
 }

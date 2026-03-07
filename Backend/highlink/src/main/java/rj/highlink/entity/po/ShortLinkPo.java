@@ -19,13 +19,13 @@ public class ShortLinkPo {
     @TableId(type = IdType.AUTO)  // 绑定主键,并且自增
     private Long id;
 
-    private String shortCode;  // 短链接
+    private String shortCode;  // 短链接码
 
     private String longUrl;    // 长链接
 
     private String urlHash;   // URL的哈希值
 
-    private Integer status;   //
+    private Integer status;   // 状态 1:启用 0:禁用
 
     private LocalDateTime expireTime;  // 失效时间
 

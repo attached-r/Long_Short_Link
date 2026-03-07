@@ -1,0 +1,1588 @@
+2026-03-06 14:25:32.822 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [rj.highlink.testService.TestShortLinkService]: TestShortLinkService does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-06 14:25:32.943 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration rj.highlink.HighlinkApplication for test class rj.highlink.testService.TestShortLinkService
+2026-03-06 14:25:33.321 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 14:25:33.341 [main] INFO  rj.highlink.testService.TestShortLinkService-Starting TestShortLinkService using Java 25.0.1 with PID 4680 (started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 14:25:33.342 [main] DEBUG rj.highlink.testService.TestShortLinkService-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 14:25:33.342 [main] INFO  rj.highlink.testService.TestShortLinkService-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:25:34.060 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 14:25:34.064 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 14:25:34.092 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2026-03-06 14:25:35.075 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 14:25:35.354 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 14:25:35.368 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 14:25:36.468 [main] INFO  rj.highlink.testService.TestShortLinkService-Started TestShortLinkService in 3.377 seconds (process running for 5.157)
+2026-03-06 14:28:10.004 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [rj.highlink.testService.TestShortLinkService]: TestShortLinkService does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-06 14:28:10.114 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration rj.highlink.HighlinkApplication for test class rj.highlink.testService.TestShortLinkService
+2026-03-06 14:28:10.428 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 14:28:10.446 [main] INFO  rj.highlink.testService.TestShortLinkService-Starting TestShortLinkService using Java 25.0.1 with PID 21052 (started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 14:28:10.447 [main] DEBUG rj.highlink.testService.TestShortLinkService-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 14:28:10.447 [main] INFO  rj.highlink.testService.TestShortLinkService-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:28:11.047 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 14:28:11.049 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 14:28:11.070 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2026-03-06 14:28:11.839 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 14:28:12.081 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 14:28:12.097 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 14:28:13.272 [main] INFO  rj.highlink.testService.TestShortLinkService-Started TestShortLinkService in 3.034 seconds (process running for 4.309)
+2026-03-06 14:29:29.156 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [rj.highlink.testService.TestShortLinkService]: TestShortLinkService does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-06 14:29:29.258 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration rj.highlink.HighlinkApplication for test class rj.highlink.testService.TestShortLinkService
+2026-03-06 14:29:29.601 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 14:29:29.619 [main] INFO  rj.highlink.testService.TestShortLinkService-Starting TestShortLinkService using Java 25.0.1 with PID 25492 (started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 14:29:29.620 [main] DEBUG rj.highlink.testService.TestShortLinkService-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 14:29:29.620 [main] INFO  rj.highlink.testService.TestShortLinkService-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:29:30.264 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 14:29:30.266 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 14:29:30.288 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2026-03-06 14:29:31.059 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 14:29:31.333 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 14:29:31.347 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 14:29:32.456 [main] INFO  rj.highlink.testService.TestShortLinkService-Started TestShortLinkService in 3.069 seconds (process running for 4.264)
+2026-03-06 14:34:59.626 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [rj.highlink.testService.TestShortLinkService]: TestShortLinkService does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-06 14:34:59.730 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration rj.highlink.HighlinkApplication for test class rj.highlink.testService.TestShortLinkService
+2026-03-06 14:35:00.061 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 14:35:00.076 [main] INFO  rj.highlink.testService.TestShortLinkService-Starting TestShortLinkService using Java 25.0.1 with PID 33288 (started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 14:35:00.077 [main] DEBUG rj.highlink.testService.TestShortLinkService-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 14:35:00.077 [main] INFO  rj.highlink.testService.TestShortLinkService-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:35:00.788 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 14:35:00.792 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 14:35:00.826 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2026-03-06 14:35:01.616 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 14:35:01.876 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 14:35:01.889 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 14:35:02.982 [main] INFO  rj.highlink.testService.TestShortLinkService-Started TestShortLinkService in 3.119 seconds (process running for 4.386)
+2026-03-06 15:26:28.469 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 15:26:28.495 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 19260 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 15:26:28.496 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 15:26:28.496 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 15:26:29.038 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 15:26:29.040 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 15:26:29.057 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2026-03-06 15:26:29.541 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 15:26:29.550 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:26:29.551 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 15:26:29.552 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 15:26:29.597 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1071 ms
+2026-03-06 15:26:29.907 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 15:26:30.137 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:26:30.149 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:26:30.733 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:26:30.741 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 15:26:30.745 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.519 seconds (process running for 3.42)
+2026-03-06 15:27:37.339 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 15:27:37.339 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 15:27:37.340 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-06 15:27:37.708 [http-nio-8080-exec-1] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:27:37.911 [http-nio-8080-exec-1] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 15:33:19.784 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 15:33:19.790 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 15:33:21.429 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 15:33:21.456 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 21884 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 15:33:21.457 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 15:33:21.457 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 15:33:22.006 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 15:33:22.007 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 15:33:22.025 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2026-03-06 15:33:22.472 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 15:33:22.483 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:33:22.485 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 15:33:22.485 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 15:33:22.527 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1042 ms
+2026-03-06 15:33:22.849 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 15:33:23.076 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:33:23.090 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:33:23.657 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:33:23.664 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 15:33:23.670 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.493 seconds (process running for 3.279)
+2026-03-06 15:33:48.618 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 15:33:48.618 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 15:33:48.619 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-06 15:33:48.824 [http-nio-8080-exec-2] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:33:48.953 [http-nio-8080-exec-2] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 15:34:07.999 [http-nio-8080-exec-3] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:34:08.002 [http-nio-8080-exec-3] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 15:37:04.268 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 15:37:04.273 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 15:37:52.538 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 15:37:52.564 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 22640 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 15:37:52.564 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 15:37:52.564 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 15:37:53.086 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 15:37:53.088 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 15:37:53.103 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2026-03-06 15:37:53.583 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 15:37:53.594 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:37:53.595 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 15:37:53.596 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 15:37:53.641 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1045 ms
+2026-03-06 15:37:53.963 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 15:37:54.180 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:37:54.192 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:37:54.740 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:37:54.747 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 15:37:54.752 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.455 seconds (process running for 3.233)
+2026-03-06 15:37:59.851 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 15:37:59.852 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 15:37:59.853 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-06 15:38:00.063 [http-nio-8080-exec-2] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:38:00.206 [http-nio-8080-exec-2] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 15:39:03.991 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 15:39:03.995 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 15:46:48.173 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 15:46:48.199 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 18484 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 15:46:48.199 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 15:46:48.199 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 15:46:48.731 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 15:46:48.732 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 15:46:48.754 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-03-06 15:46:49.192 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 15:46:49.201 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:46:49.202 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 15:46:49.202 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 15:46:49.244 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1013 ms
+2026-03-06 15:46:49.551 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 15:46:49.785 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:46:49.799 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:46:50.451 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:46:50.460 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 15:46:50.465 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.527 seconds (process running for 3.334)
+2026-03-06 15:47:05.159 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 15:47:05.159 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 15:47:05.160 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-03-06 15:47:05.389 [http-nio-8080-exec-5] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:47:05.516 [http-nio-8080-exec-5] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 15:49:20.015 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 15:49:20.023 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 15:49:23.130 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 15:49:23.155 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 22484 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 15:49:23.155 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 15:49:23.156 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 15:49:23.675 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 15:49:23.677 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 15:49:23.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-03-06 15:49:24.143 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 15:49:24.152 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:49:24.153 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 15:49:24.153 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 15:49:24.194 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1008 ms
+2026-03-06 15:49:24.499 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 15:49:24.712 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:49:24.726 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:49:25.338 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:49:25.346 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 15:49:25.352 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.459 seconds (process running for 3.262)
+2026-03-06 15:49:30.470 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 15:49:30.470 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 15:49:30.470 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-03-06 15:49:30.677 [http-nio-8080-exec-2] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:49:30.809 [http-nio-8080-exec-2] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 15:51:45.243 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 15:51:45.248 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 15:54:37.355 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 15:54:37.382 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 19224 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 15:54:37.382 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 15:54:37.383 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 15:54:37.905 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 15:54:37.907 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 15:54:37.928 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-03-06 15:54:38.349 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 15:54:38.359 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:54:38.360 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 15:54:38.360 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 15:54:38.401 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 983 ms
+2026-03-06 15:54:38.694 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 15:54:38.915 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:54:38.931 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 15:54:39.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 15:54:39.526 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 15:54:39.532 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.419 seconds (process running for 3.133)
+2026-03-06 15:55:35.878 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 15:55:35.878 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 15:55:35.879 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-06 15:55:36.097 [http-nio-8080-exec-5] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:55:36.219 [http-nio-8080-exec-5] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 15:57:09.233 [http-nio-8080-exec-2] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:57:09.237 [http-nio-8080-exec-2] ERROR r.highlink.common.exception.GlobalExceptionHandler-系统异常：
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start property name
+	at org.springframework.http.converter.AbstractJacksonHttpMessageConverter.readJavaType(AbstractJacksonHttpMessageConverter.java:363)
+	at org.springframework.http.converter.AbstractJacksonHttpMessageConverter.read(AbstractJacksonHttpMessageConverter.java:319)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:203)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:156)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:174)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: tools.jackson.core.exc.StreamReadException: Unexpected character ('}' (code 125)): was expecting double-quote to start property name
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #95]
+	at tools.jackson.core.JsonParser._constructReadException(JsonParser.java:1800)
+	at tools.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:1049)
+	at tools.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2459)
+	at tools.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:2110)
+	at tools.jackson.core.json.UTF8StreamJsonParser.nextNameMatch(UTF8StreamJsonParser.java:1160)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:528)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1646)
+	at tools.jackson.databind.ObjectReader.readValue(ObjectReader.java:1171)
+	at org.springframework.http.converter.AbstractJacksonHttpMessageConverter.readJavaType(AbstractJacksonHttpMessageConverter.java:352)
+	... 46 common frames omitted
+2026-03-06 15:58:12.597 [http-nio-8080-exec-8] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 15:58:12.600 [http-nio-8080-exec-8] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 16:00:03.262 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 16:00:03.267 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 16:06:38.840 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:06:38.870 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 24432 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:06:38.870 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:06:38.871 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:06:39.397 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:06:39.399 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:06:39.421 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:06:39.886 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:06:39.896 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:06:39.896 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:06:39.896 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:06:39.938 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1036 ms
+2026-03-06 16:06:40.257 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:06:40.493 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:06:40.504 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:06:41.066 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:06:41.073 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 16:06:41.077 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.483 seconds (process running for 3.283)
+2026-03-06 16:08:19.319 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 16:08:19.319 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 16:08:19.320 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-03-06 16:08:19.643 [http-nio-8080-exec-3] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 16:08:19.818 [http-nio-8080-exec-3] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 16:12:21.414 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 16:12:21.419 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 16:12:58.815 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:12:58.845 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 29296 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:12:58.846 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:12:58.847 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:12:59.379 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:12:59.380 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:12:59.397 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:12:59.864 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:12:59.874 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:12:59.875 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:12:59.875 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:12:59.918 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1041 ms
+2026-03-06 16:13:00.223 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:13:00.430 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:13:00.443 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:13:00.972 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:13:00.980 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 16:13:00.985 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.402 seconds (process running for 3.256)
+2026-03-06 16:13:08.025 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 16:13:08.025 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 16:13:08.026 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-06 16:13:08.253 [http-nio-8080-exec-2] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 16:13:08.376 [http-nio-8080-exec-2] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 16:16:07.989 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 16:16:07.993 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 16:17:40.672 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:17:40.698 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 4668 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:17:40.698 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:17:40.699 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:17:41.213 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:17:41.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:17:41.235 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:17:41.667 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:17:41.679 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:17:41.680 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:17:41.680 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:17:41.723 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 989 ms
+2026-03-06 16:17:42.031 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:17:42.259 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:17:42.272 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:17:42.851 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:17:42.858 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 16:17:42.863 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.436 seconds (process running for 3.26)
+2026-03-06 16:17:48.266 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 16:17:48.266 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 16:17:48.267 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-06 16:17:48.461 [http-nio-8080-exec-2] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 16:17:48.589 [http-nio-8080-exec-2] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 16:18:46.283 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 16:18:46.287 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 16:21:24.094 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:21:24.119 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 13780 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:21:24.119 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:21:24.119 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:21:24.656 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:21:24.658 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:21:24.680 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:21:25.159 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:21:25.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:21:25.171 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:21:25.171 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:21:25.213 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1053 ms
+2026-03-06 16:21:25.525 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:21:25.740 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:21:25.752 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:21:26.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:21:26.335 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 16:21:26.340 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.502 seconds (process running for 3.229)
+2026-03-06 16:21:30.475 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 16:21:30.475 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 16:21:30.476 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-06 16:21:30.704 [http-nio-8080-exec-5] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 16:21:30.828 [http-nio-8080-exec-5] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:321)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 16:21:43.165 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 16:21:43.169 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 16:28:25.893 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:28:25.918 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 30548 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:28:25.919 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:28:25.919 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:28:26.429 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:28:26.435 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:28:26.455 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:28:26.908 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:28:26.918 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:28:26.920 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:28:26.920 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:28:26.964 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1014 ms
+2026-03-06 16:28:27.273 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:28:27.488 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:28:27.501 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:28:28.015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:28:28.022 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-06 16:28:28.027 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.364 seconds (process running for 3.119)
+2026-03-06 16:28:47.256 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 16:28:47.256 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-06 16:28:47.257 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-06 16:28:47.449 [http-nio-8080-exec-2] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-06 16:28:47.581 [http-nio-8080-exec-2] ERROR rj.highlink.controller.ShortLinkController-创建短链接异常
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): rj.highlink.mapper.ShortLinkMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1756)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:332)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:154)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.repository.AbstractRepository.getOne(AbstractRepository.java:78)
+	at com.baomidou.mybatisplus.extension.repository.IRepository.getOne(IRepository.java:221)
+	at rj.highlink.service.impl.ShortLinkServiceImpl.create(ShortLinkServiceImpl.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at rj.highlink.service.impl.ShortLinkServiceImpl$$SpringCGLIB$$0.create(<generated>)
+	at rj.highlink.controller.ShortLinkController.create(ShortLinkController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 16:30:47.914 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 16:30:47.918 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-03-06 16:32:16.479 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:32:16.504 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 34680 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:32:16.504 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:32:16.504 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:32:17.022 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:32:17.024 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:32:17.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:32:17.480 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:32:17.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:32:17.490 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:32:17.490 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:32:17.530 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 993 ms
+2026-03-06 16:32:17.850 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:32:18.077 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:32:18.089 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:32:18.136 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkController' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\controller\ShortLinkController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+2026-03-06 16:32:18.150 [main] INFO  org.apache.catalina.core.StandardService-Stopping service [Tomcat]
+2026-03-06 16:32:18.160 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-06 16:32:18.169 [main] ERROR org.springframework.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkController' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\controller\ShortLinkController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at rj.highlink.HighlinkApplication.main(HighlinkApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:748)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.util.Assert.notNull(Assert.java:182)
+	at org.mybatis.spring.support.SqlSessionDaoSupport.checkDaoConfig(SqlSessionDaoSupport.java:122)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:69)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:46)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 46 common frames omitted
+2026-03-06 16:39:06.885 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:39:06.910 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 18148 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:39:06.911 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:39:06.911 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:39:07.439 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:39:07.441 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:39:07.465 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:39:07.903 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:39:07.912 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:39:07.912 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:39:07.913 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:39:07.948 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1005 ms
+2026-03-06 16:39:08.238 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:39:08.444 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:39:08.457 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:39:08.505 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkController' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\controller\ShortLinkController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+2026-03-06 16:39:08.523 [main] INFO  org.apache.catalina.core.StandardService-Stopping service [Tomcat]
+2026-03-06 16:39:08.532 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-06 16:39:08.540 [main] ERROR org.springframework.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkController' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\controller\ShortLinkController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at rj.highlink.HighlinkApplication.main(HighlinkApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:748)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.util.Assert.notNull(Assert.java:182)
+	at org.mybatis.spring.support.SqlSessionDaoSupport.checkDaoConfig(SqlSessionDaoSupport.java:122)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:69)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:46)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 46 common frames omitted
+2026-03-06 16:40:02.328 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:40:02.357 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 30436 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:40:02.358 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:40:02.358 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:40:02.854 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:40:02.856 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:40:02.876 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:40:03.343 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:40:03.352 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:40:03.353 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:40:03.353 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:40:03.400 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1004 ms
+2026-03-06 16:40:03.698 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:40:03.903 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:40:03.919 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:40:03.966 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkController' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\controller\ShortLinkController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+2026-03-06 16:40:03.980 [main] INFO  org.apache.catalina.core.StandardService-Stopping service [Tomcat]
+2026-03-06 16:40:03.989 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-06 16:40:03.997 [main] ERROR org.springframework.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkController' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\controller\ShortLinkController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at rj.highlink.HighlinkApplication.main(HighlinkApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:748)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.util.Assert.notNull(Assert.java:182)
+	at org.mybatis.spring.support.SqlSessionDaoSupport.checkDaoConfig(SqlSessionDaoSupport.java:122)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:69)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:46)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 46 common frames omitted
+2026-03-06 16:42:46.498 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.1.Final
+2026-03-06 16:42:46.523 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 25.0.1 with PID 6712 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-06 16:42:46.523 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-06 16:42:46.524 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-06 16:42:47.012 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 16:42:47.014 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 16:42:47.034 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-03-06 16:42:47.461 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-06 16:42:47.469 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-06 16:42:47.470 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-06 16:42:47.470 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 16:42:47.508 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 953 ms
+2026-03-06 16:42:47.800 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-06 16:42:48.010 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:42:48.023 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-06 16:42:48.078 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkController' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\controller\ShortLinkController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+2026-03-06 16:42:48.093 [main] INFO  org.apache.catalina.core.StandardService-Stopping service [Tomcat]
+2026-03-06 16:42:48.102 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-06 16:42:48.110 [main] ERROR org.springframework.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkController' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\controller\ShortLinkController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at rj.highlink.HighlinkApplication.main(HighlinkApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shortLinkServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:748)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shortLinkMapper' defined in file [D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes\rj\highlink\mapper\ShortLinkMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.util.Assert.notNull(Assert.java:182)
+	at org.mybatis.spring.support.SqlSessionDaoSupport.checkDaoConfig(SqlSessionDaoSupport.java:122)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:69)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:46)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 46 common frames omitted

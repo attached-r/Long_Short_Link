@@ -15,6 +15,7 @@ import rj.highlink.entity.po.ShortLinkVisitPo;
 import rj.highlink.mapper.ShortLinkMapper;
 import rj.highlink.mapper.ShortLinkVisitMapper;
 import rj.highlink.service.RedirectionService;
+import rj.highlink.service.VisitLogService;
 import rj.highlink.utils.BloomFilterUtil;
 import rj.highlink.utils.RedisUtil;
 
@@ -43,10 +44,10 @@ import java.util.concurrent.TimeUnit;
 @RequiredArgsConstructor
 public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLinkPo> implements RedirectionService {
 
-    private final RedissonClient redissonClient;
-    private final RedisUtil redisUtil;
-    private final BloomFilterUtil bloomFilterUtil;
-    private final ShortLinkVisitMapper shortLinkVisitMapper;
+    private final RedissonClient redissonClient; // Redisson 客户端
+    private final RedisUtil redisUtil;         // Redis 工具类
+    private final BloomFilterUtil bloomFilterUtil;  // 布隆过滤器
+    private final VisitLogService visitLogService;  // 访问日志服务
     private final HttpServletRequest request;  // 自动注入请求对象
 
     private static final String LOCK_KEY_PREFIX = "lock:code:"; // 锁前缀
@@ -76,7 +77,8 @@ public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLi
         String longUrl = redisUtil.getLink(shortCode);
         if (longUrl != null) {
             log.debug("Redis 缓存命中 - shortCode: {}, longUrl: {}", shortCode, longUrl);
-            recordVisitAsync(shortCode, clientIp, userAgent);
+            // 异步记录访问日志
+            visitLogService.saveVisitLog(shortCode, clientIp, userAgent);
             return longUrl;
         }
 
@@ -94,7 +96,8 @@ public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLi
                     longUrl = redisUtil.getLink(shortCode);
                     if (longUrl != null) {
                         log.debug("双检缓存命中 - shortCode: {}", shortCode);
-                        recordVisitAsync(shortCode, clientIp, userAgent);
+                        // 异步记录访问日志
+                        visitLogService.saveVisitLog(shortCode, clientIp, userAgent);
                         return longUrl;
                     }
 
@@ -124,8 +127,8 @@ public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLi
                     redisUtil.setLink(shortCode, shortLinkPo.getLongUrl(), expireSeconds);
                     log.debug("回写 Redis 缓存成功 - shortCode: {}, expireSeconds: {}", shortCode, expireSeconds);
 
-                    // 8. 异步记录访问日志
-                    recordVisitAsync(shortCode, clientIp, userAgent);
+                    // 8. 异步记录访问日志, 改为调用VisitLogService
+                    visitLogService.saveVisitLog(shortCode, clientIp, userAgent);
 
                     // 9. 返回长链接
                     log.info("重定向成功 - shortCode: {}, longUrl: {}", shortCode, shortLinkPo.getLongUrl());
@@ -149,36 +152,6 @@ public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLi
         }
     }
 
-    /**
-     * 异步记录访问日志
-     *
-     * @param shortCode 短码
-     * @param ip 客户端 IP 地址
-     * @param userAgent 用户代理
-     */
-    @Async
-    @Override
-    public void recordVisitAsync(String shortCode, String ip, String userAgent) {
-        // 1. 参数校验
-        try {
-            if (shortCode == null || shortCode.isBlank()) {
-                log.warn("访问日志参数错误 - shortCode 为空");
-                return;
-            }
-        // 2. 插入数据库
-            ShortLinkVisitPo visitPo = new ShortLinkVisitPo();
-            visitPo.setShortCode(shortCode);
-            visitPo.setIp(ip != null ? ip : "unknown");
-            visitPo.setUserAgent(userAgent != null ? userAgent : "unknown");
-            visitPo.setVisitTime(LocalDateTime.now());
-
-            shortLinkVisitMapper.insert(visitPo);
-            log.debug("访问日志记录成功 - shortCode: {}", shortCode);
-
-        } catch (Exception e) {
-            log.error("访问日志记录失败 - shortCode: {}, 错误：{}", shortCode, e.getMessage(), e);
-        }
-    }
 
     /**
      * 获取客户端真实 IP 地址

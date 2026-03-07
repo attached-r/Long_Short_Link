@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import rj.highlink.entity.dto.CreateShortLinkDTO;
 import rj.highlink.entity.po.ShortLinkPo;
+import rj.highlink.entity.vo.ShortLinkVO;
 import rj.highlink.mapper.ShortLinkMapper;
 import rj.highlink.service.ShortLinkService;
 import rj.highlink.utils.*;
@@ -25,7 +26,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 @Service
-@RequiredArgsConstructor
+@RequiredArgsConstructor  // 自动注入
 public class ShortLinkServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLinkPo> implements ShortLinkService {
 
     private final RedissonClient redissonClient;
@@ -59,16 +60,16 @@ public class ShortLinkServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLink
             throw new IllegalArgumentException("该 URL 在黑名单中，无法生成短链接");
         }
 
-        // 2. 计算url_hash
+        // 2. 计算url_hash (用于去重判断)
         String urlHash = DigestUtil.md5Hex(longUrl);
 
-        // 3. 获取分布式锁
+        // 3. 获取分布式锁 (基于urlHash，防止并发重复创建)
         String lockKey = LOCK_KEY_PREFIX + urlHash;
         RLock lock = redissonClient.getLock(lockKey);
         try {
             if (lock.tryLock(15, TimeUnit.SECONDS)) {
                 try {
-                    // 4. 双检锁：查询数据库是否已存在
+                    // 4. 双检锁：查询数据库是否已存在相同的longUrl
                     ShortLinkPo existPo = this.getOne(  // 查询数据库
                             new LambdaQueryWrapper<ShortLinkPo>()
                                     .eq(ShortLinkPo::getUrlHash, urlHash)
@@ -149,5 +150,135 @@ public class ShortLinkServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLink
      */
     private String generateShortCode(long id) {
         return Base62Util.encode(id,null);
+    }
+
+    /**
+     * 二：查询短链接详细信息
+     * 1. 先从 Redis 缓存查询长链接（提高性能）
+     * 2. 如果缓存命中，直接返回 VO（快速路径）
+     * 3. 如果缓存未命中，则查询数据库，并回写缓存
+     * 4. 构建 VO 对象返回
+     *
+     * @param shortCode 短链码
+     * @return 短链接视图对象（不存在返回 null）
+     */
+    @Override
+    public ShortLinkVO getInfo(String shortCode) {
+        try {
+            // 1. 先从 Redis 缓存查询长链接
+            String longUrlFromCache = redisUtil.getLink(shortCode);
+
+            // 2. 如果缓存命中，直接构建 VO 返回（快速路径）
+            if (longUrlFromCache != null) {
+                log.debug("缓存命中 - shortCode: {}, longUrl: {}", shortCode, longUrlFromCache);
+
+                // 需要查询数据库获取完整信息（创建时间、过期时间、状态等）
+                ShortLinkPo cachedPo = this.getOne(
+                        new LambdaQueryWrapper<ShortLinkPo>()
+                                .eq(ShortLinkPo::getShortCode, shortCode)
+                );
+
+                if (cachedPo != null) {
+                    return buildShortLinkVO(cachedPo);
+                }
+            }
+
+            // 3. 缓存未命中，查询数据库
+            log.debug("缓存未命中，查询数据库 - shortCode: {}", shortCode);
+            ShortLinkPo shortLinkPo = this.getOne(
+                    new LambdaQueryWrapper<ShortLinkPo>()
+                            .eq(ShortLinkPo::getShortCode, shortCode)
+            );
+
+            // 4. 如果不存在，返回 null
+            if (shortLinkPo == null) {
+                log.warn("查询短链接不存在 - shortCode: {}", shortCode);
+                return null;
+            }
+
+            // 5. 构建 VO 对象
+            ShortLinkVO vo = buildShortLinkVO(shortLinkPo);
+
+            log.info("查询短链接成功 - shortCode: {}, longUrl: {}",
+                    shortCode, shortLinkPo.getLongUrl());
+            return vo;
+
+        } catch (Exception e) {
+            log.error("查询短链接异常 - shortCode: {}", shortCode, e);
+            return null;
+        }
+    }
+
+    /**
+     * 构建 ShortLinkVO 对象的辅助方法
+     *
+     * @param po 数据库实体对象
+     * @return 视图对象
+     */
+    private ShortLinkVO buildShortLinkVO(ShortLinkPo po) {
+        ShortLinkVO vo = new ShortLinkVO();
+        vo.setShortCode(po.getShortCode());
+        vo.setFullShortUrl(SHORT_LINK_DOMAIN + po.getShortCode());
+        vo.setLongUrl(po.getLongUrl());
+
+        // 格式化时间
+        if (po.getCreateTime() != null) {
+            vo.setCreateTimeStr(po.getCreateTime().toString());
+        }
+        if (po.getExpireTime() != null) {
+            vo.setExpireTimeStr(po.getExpireTime().toString());
+        }
+
+        // 设置状态描述
+        vo.setStatusDesc(po.getStatus() == 1 ? "启用" : "禁用");
+
+        return vo;
+    }
+
+    /**
+     * 三：禁用短链接
+     * 1. 更新数据库 status = 0（禁用状态）
+     * 2. 删除 Redis 缓存（使用 deleteLink 方法）
+     * 3. 确保后续访问会被拦截
+     *
+     * @param shortCode 短链码
+     * @return 操作结果（true=成功，false=失败）
+     */
+    @Override
+    public boolean disable(String shortCode) {
+        try {
+            // 1. 查询短链接是否存在
+            ShortLinkPo shortLinkPo = this.getOne(
+                    new LambdaQueryWrapper<ShortLinkPo>()
+                            .eq(ShortLinkPo::getShortCode, shortCode)
+            );
+
+            if (shortLinkPo == null) {
+                log.warn("禁用短链接失败 - 短链接不存在：{}", shortCode);
+                return false;
+            }
+
+            // 2. 如果已经禁用，直接返回成功
+            if (shortLinkPo.getStatus() == 0) {
+                log.info("短链接已禁用 - shortCode: {}", shortCode);
+                return true;
+            }
+
+            // 3. 更新数据库状态为禁用
+            shortLinkPo.setStatus(0);
+            shortLinkPo.setUpdateTime(LocalDateTime.now());
+            this.updateById(shortLinkPo);
+
+            // 4. 删除 Redis 缓存（逻辑删除，添加删除标记）
+            redisUtil.deleteLink(shortCode);
+
+            log.info("禁用短链接成功 - shortCode: {}, longUrl: {}",
+                    shortCode, shortLinkPo.getLongUrl());
+            return true;
+
+        } catch (Exception e) {
+            log.error("禁用短链接异常 - shortCode: {}", shortCode, e);
+            return false;
+        }
     }
 }

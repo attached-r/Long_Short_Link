@@ -2,36 +2,54 @@ spring:
   application:
     name: highlink
 
-# 配置MySql数据源
-  datasource:
-    url: jdbc:mysql://localhost:3306/short_url  #连接地址
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: ${DB_PASSWORD:20050603RJ} # 密码
-
-  # 配置redis
+  # 配置 Redis
   data:
     redis:
       host: localhost
       port: 6379
       password: ${REDIS_PASSWORD:20050603RJ}
-      database: 2   # 数据库索引，从2开始
+      database: 2
       timeout: 10000
 
-# 配置mybatis
-mybatis:
-  mapper-locations: classpath:mapper/*.xml  #映射 文件
-  type-aliases-package: rj.highlink.entity  #实体类包
+  # 配置 MySql 数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/short_url?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ${DB_PASSWORD:20050603RJ}
+    hikari:
+      pool-name: HikariCP
+      minimum-idle: 5
+      maximum-pool-size: 20
+      auto-commit: true
+      idle-timeout: 30000
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+
+# 配置 MyBatis Plus
+mybatis-plus:
+  # Mapper接口扫描路径（替换为你实际的mapper包路径）
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: rj.highlink.entity
   configuration:
-    map-underscore-to-camel-case: true  # 驼峰命名
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印sql
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 # 服务器配置
 server:
   port: 8080
-
+# 日志配置
 logging:
   level:
-    root: INFO  # 只显示 INFO 及以上级别
-    org.mybatis: WARN  # 关闭 MyBatis 的 DEBUG 日志
+    root: INFO
+    org.mybatis: WARN
     org.springframework.boot: INFO
+
+#url配置
+url:
+  blacklist:
+    # 黑名单域名（逗号分隔）
+    domains: evil.com,malicious-site.com,phishing.com,fake-bank.com
+    # 非法关键词（逗号分隔）
+    keywords: porn,gambling,fraud,scam,phishing,彩票，赌博，色情
