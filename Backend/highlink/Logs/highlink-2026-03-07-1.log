@@ -412,3 +412,126 @@
 2026-03-07 15:19:59.116 [pool-1-thread-12] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-写入 Redis 结果：2pYfIrKETXq
 2026-03-07 15:19:59.169 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
 2026-03-07 15:19:59.181 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2026-03-07 16:02:14.642 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+2026-03-07 16:02:14.669 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 17.0.18 with PID 16776 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-07 16:02:14.670 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v3.3.6, Spring v6.1.15
+2026-03-07 16:02:14.671 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-07 16:02:15.141 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-07 16:02:15.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-07 16:02:15.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2026-03-07 16:02:15.667 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-07 16:02:15.676 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-07 16:02:15.677 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-07 16:02:15.677 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-03-07 16:02:15.723 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-03-07 16:02:15.723 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1023 ms
+2026-03-07 16:02:16.034 [main] INFO  rj.highlink.common.util.UrlBlackListUtil-URL 黑名单加载完成 - 域名：4个，关键词：6个
+2026-03-07 16:02:16.034 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单域名：[phishing.com, malicious-site.com, evil.com, fake-bank.com]
+2026-03-07 16:02:16.034 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单关键词：[phishing, fraud, gambling, scam, 彩票，赌博，色情, porn]
+2026-03-07 16:02:16.082 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-07 16:02:16.287 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-07 16:02:16.301 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-07 16:02:16.974 [main] INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware-Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62c5bbdc
+2026-03-07 16:02:17.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-07 16:02:17.138 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-07 16:02:17.145 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.743 seconds (process running for 3.447)
+2026-03-07 16:03:26.202 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-07 16:03:26.202 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-07 16:03:26.203 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-07 16:11:55.296 [http-nio-8080-exec-5] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 16:11:55.535 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2026-03-07 16:11:55.697 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@68c50477
+2026-03-07 16:11:55.698 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2026-03-07 16:11:55.742 [http-nio-8080-exec-5] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：null
+2026-03-07 16:11:55.788 [http-nio-8080-exec-5] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-插入数据库结果：ShortLinkPo(id=429, shortCode=2pYjqAFxlUk, longUrl=https://www.example.com/very/long/url/path?number=1&name=rj, urlHash=603d824702f37d5d424a72d4a53d33d8, status=1, expireTime=2026-03-14T00:00, createTime=2026-03-07T16:11:55.772807800, updateTime=2026-03-07T16:11:55.772807800)
+2026-03-07 16:11:55.833 [http-nio-8080-exec-5] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-写入 Redis 结果：2pYjqAFxlUk
+2026-03-07 16:20:33.551 [http-nio-8080-exec-6] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 16:20:33.559 [http-nio-8080-exec-6] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：ShortLinkPo(id=429, shortCode=2pYjqAFxlUk, longUrl=https://www.example.com/very/long/url/path?number=1&name=rj, urlHash=603d824702f37d5d424a72d4a53d33d8, status=1, expireTime=2026-03-14T00:00, createTime=2026-03-07T16:11:56, updateTime=2026-03-07T16:11:56)
+2026-03-07 16:42:55.061 [http-nio-8080-exec-7] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 16:42:55.065 [http-nio-8080-exec-7] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：null
+2026-03-07 16:42:55.076 [http-nio-8080-exec-7] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-插入数据库结果：ShortLinkPo(id=430, shortCode=2pYlDT29wWY, longUrl=https://www.example.com/very/long/url/path?numbuer=1&name=rj, urlHash=9175191f544784aad03ebe44528714bf, status=1, expireTime=2026-03-14T16:42:55.067448500, createTime=2026-03-07T16:42:55.067448500, updateTime=2026-03-07T16:42:55.067448500)
+2026-03-07 16:42:55.078 [http-nio-8080-exec-7] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-写入 Redis 结果：2pYlDT29wWY
+2026-03-07 16:47:14.228 [http-nio-8080-exec-9] INFO  rj.highlink.service.impl.RedirectionServiceImpl-开始处理短链重定向请求 - shortCode: 2pYlDT29wWY, IP: 0:0:0:0:0:0:0:1
+2026-03-07 16:47:14.254 [http-nio-8080-exec-9] DEBUG rj.highlink.service.impl.RedirectionServiceImpl-Redis 缓存命中 - shortCode: 2pYlDT29wWY, longUrl: https://www.example.com/very/long/url/path?numbuer=1&name=rj
+2026-03-07 16:47:14.268 [async-log-thread-108] DEBUG rj.highlink.service.impl.VisitLogServiceImpl-访问日志异步保存成功 - shortCode: 2pYlDT29wWY, IP: 0:0:0:0:0:0:0:1
+2026-03-07 16:50:37.147 [http-nio-8080-exec-1] INFO  rj.highlink.service.impl.RedirectionServiceImpl-开始处理短链重定向请求 - shortCode: 2pYlDT29wWY, IP: 0:0:0:0:0:0:0:1
+2026-03-07 16:50:37.153 [http-nio-8080-exec-1] DEBUG rj.highlink.service.impl.RedirectionServiceImpl-Redis 缓存命中 - shortCode: 2pYlDT29wWY, longUrl: https://www.example.com/very/long/url/path?numbuer=1&name=rj
+2026-03-07 16:50:37.162 [async-log-thread-109] DEBUG rj.highlink.service.impl.VisitLogServiceImpl-访问日志异步保存成功 - shortCode: 2pYlDT29wWY, IP: 0:0:0:0:0:0:0:1
+2026-03-07 16:59:26.543 [http-nio-8080-exec-4] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 16:59:26.549 [http-nio-8080-exec-4] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：ShortLinkPo(id=430, shortCode=2pYlDT29wWY, longUrl=https://www.example.com/very/long/url/path?numbuer=1&name=rj, urlHash=9175191f544784aad03ebe44528714bf, status=1, expireTime=2026-03-14T16:42:55, createTime=2026-03-07T16:42:55, updateTime=2026-03-07T16:42:55)
+2026-03-07 17:05:04.186 [http-nio-8080-exec-5] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 17:05:04.192 [http-nio-8080-exec-5] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：ShortLinkPo(id=430, shortCode=2pYlDT29wWY, longUrl=https://www.example.com/very/long/url/path?numbuer=1&name=rj, urlHash=9175191f544784aad03ebe44528714bf, status=1, expireTime=2026-03-14T16:42:55, createTime=2026-03-07T16:42:55, updateTime=2026-03-07T16:42:55)
+2026-03-07 17:06:18.707 [http-nio-8080-exec-6] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 17:06:18.713 [http-nio-8080-exec-6] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：ShortLinkPo(id=430, shortCode=2pYlDT29wWY, longUrl=https://www.example.com/very/long/url/path?numbuer=1&name=rj, urlHash=9175191f544784aad03ebe44528714bf, status=1, expireTime=2026-03-14T16:42:55, createTime=2026-03-07T16:42:55, updateTime=2026-03-07T16:42:55)
+2026-03-07 17:08:47.263 [http-nio-8080-exec-7] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 17:08:47.287 [http-nio-8080-exec-7] ERROR r.highlink.common.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public rj.highlink.common.result.R<rj.highlink.entity.vo.ShortLinkVO> rj.highlink.controller.ShortLinkController.create(rj.highlink.entity.dto.CreateShortLinkDTO): [Field error in object 'createShortLinkDTO' on field 'longUrl': rejected value [/**      * 二：短链接重定向      * GET /{shortCode}      *      * @param shortCode 短链码      * @return 302 重定向响应或 404，直接访问短链接就可以访问长链接      */     @GetMapping("/redirect/{shortCode}")     public ResponseEntity<Void> redirect(@PathVariable String shortCode) {         try {             // 1. 重定向 获取长链接             String longUrl = redirectionService.redirect(shortCode);             // 2. 判断长链接是否有效             if (longUrl == null) {                 log.warn("重定向失败，短链接不存在或已失效：{}", shortCode);                 return ResponseEntity.status(HttpStatus.NOT_FOUND).build();             }             // 3. 构建重定向响应             // 创建 HTTP 头             HttpHeaders headers = new HttpHeaders();             // 添加 Location 头，设置为长链接             headers.add(HttpHeaders.LOCATION, longUrl);             // 4. 返回重定向响应             return ResponseEntity.status(HttpStatus.FOUND).headers(headers).build();          } catch (Exception e) {             log.error("重定向异常：{}", shortCode, e);             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();         }     }]; codes [Pattern.createShortLinkDTO.longUrl,Pattern.longUrl,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createShortLinkDTO.longUrl,longUrl]; arguments []; default message [longUrl],[Ljakarta.validation.constraints.Pattern$Flag;@577108c,^(https?|ftp)://[\w\-]+(\.[\w\-]+)+[/#?]?.*$]; default message [原始链接格式不正确]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:144)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-03-07 17:08:54.290 [http-nio-8080-exec-8] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 17:08:54.298 [http-nio-8080-exec-8] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：ShortLinkPo(id=430, shortCode=2pYlDT29wWY, longUrl=https://www.example.com/very/long/url/path?numbuer=1&name=rj, urlHash=9175191f544784aad03ebe44528714bf, status=1, expireTime=2026-03-14T16:42:55, createTime=2026-03-07T16:42:55, updateTime=2026-03-07T16:42:55)
+2026-03-07 17:08:56.828 [http-nio-8080-exec-9] DEBUG rj.highlink.service.impl.ShortLinkServiceImpl-缓存命中 - shortCode: 2pYlDT29wWY, longUrl: https://www.example.com/very/long/url/path?numbuer=1&name=rj
+2026-03-07 17:10:22.273 [http-nio-8080-exec-10] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 17:10:22.281 [http-nio-8080-exec-10] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：ShortLinkPo(id=430, shortCode=2pYlDT29wWY, longUrl=https://www.example.com/very/long/url/path?numbuer=1&name=rj, urlHash=9175191f544784aad03ebe44528714bf, status=1, expireTime=2026-03-14T16:42:55, createTime=2026-03-07T16:42:55, updateTime=2026-03-07T16:42:55)
+2026-03-07 17:10:23.257 [http-nio-8080-exec-1] DEBUG rj.highlink.service.impl.ShortLinkServiceImpl-缓存命中 - shortCode: 2pYlDT29wWY, longUrl: https://www.example.com/very/long/url/path?numbuer=1&name=rj
+2026-03-07 17:18:20.975 [http-nio-8080-exec-3] INFO  rj.highlink.service.impl.RedirectionServiceImpl-开始处理短链重定向请求 - shortCode: 2pYlDT29wWY, IP: 0:0:0:0:0:0:0:1
+2026-03-07 17:18:20.979 [http-nio-8080-exec-3] DEBUG rj.highlink.service.impl.RedirectionServiceImpl-Redis 缓存命中 - shortCode: 2pYlDT29wWY, longUrl: https://www.example.com/very/long/url/path?numbuer=1&name=rj
+2026-03-07 17:18:20.989 [async-log-thread-116] DEBUG rj.highlink.service.impl.VisitLogServiceImpl-访问日志异步保存成功 - shortCode: 2pYlDT29wWY, IP: 0:0:0:0:0:0:0:1
+2026-03-07 17:18:41.653 [http-nio-8080-exec-4] DEBUG rj.highlink.service.impl.ShortLinkServiceImpl-缓存命中 - shortCode: 2pYlDT29wWY, longUrl: https://www.example.com/very/long/url/path?numbuer=1&name=rj
+2026-03-07 17:21:02.426 [http-nio-8080-exec-6] DEBUG rj.highlink.service.impl.ShortLinkServiceImpl-缓存命中 - shortCode: 2pYlDT29wWY, longUrl: https://www.example.com/very/long/url/path?numbuer=1&name=rj
+2026-03-07 17:21:25.759 [http-nio-8080-exec-7] INFO  rj.highlink.service.impl.RedirectionServiceImpl-开始处理短链重定向请求 - shortCode: 2pYlDT29wWY, IP: 0:0:0:0:0:0:0:1
+2026-03-07 17:21:25.761 [http-nio-8080-exec-7] DEBUG rj.highlink.service.impl.RedirectionServiceImpl-Redis 缓存命中 - shortCode: 2pYlDT29wWY, longUrl: https://www.example.com/very/long/url/path?numbuer=1&name=rj
+2026-03-07 17:21:25.767 [async-log-thread-117] DEBUG rj.highlink.service.impl.VisitLogServiceImpl-访问日志异步保存成功 - shortCode: 2pYlDT29wWY, IP: 0:0:0:0:0:0:0:1
+2026-03-07 17:27:35.970 [http-nio-8080-exec-10] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 17:27:35.974 [http-nio-8080-exec-10] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：ShortLinkPo(id=430, shortCode=2pYlDT29wWY, longUrl=https://www.example.com/very/long/url/path?numbuer=1&name=rj, urlHash=9175191f544784aad03ebe44528714bf, status=1, expireTime=2026-03-14T16:42:55, createTime=2026-03-07T16:42:55, updateTime=2026-03-07T16:42:55)
+2026-03-07 17:30:42.202 [http-nio-8080-exec-1] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-07 17:30:42.210 [http-nio-8080-exec-1] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：ShortLinkPo(id=429, shortCode=2pYjqAFxlUk, longUrl=https://www.example.com/very/long/url/path?number=1&name=rj, urlHash=603d824702f37d5d424a72d4a53d33d8, status=1, expireTime=2026-03-14T00:00, createTime=2026-03-07T16:11:56, updateTime=2026-03-07T16:11:56)
+2026-03-07 17:30:49.043 [http-nio-8080-exec-3] INFO  rj.highlink.service.impl.RedirectionServiceImpl-开始处理短链重定向请求 - shortCode: 2pYjqAFxlUk, IP: 0:0:0:0:0:0:0:1
+2026-03-07 17:30:49.046 [http-nio-8080-exec-3] DEBUG rj.highlink.service.impl.RedirectionServiceImpl-Redis 缓存命中 - shortCode: 2pYjqAFxlUk, longUrl: https://www.example.com/very/long/url/path?number=1&name=rj
+2026-03-07 17:30:49.052 [async-log-thread-118] DEBUG rj.highlink.service.impl.VisitLogServiceImpl-访问日志异步保存成功 - shortCode: 2pYjqAFxlUk, IP: 0:0:0:0:0:0:0:1
