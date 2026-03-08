@@ -22,6 +22,14 @@ public class GlobalExceptionHandler {
     }
 
     /**
+     * 处理非法参数异常 IllegalArgumentException
+     */
+    @ExceptionHandler(IllegalArgumentException.class)
+    public R<Void> handleIllegalArgumentException(IllegalArgumentException e) {
+        log.error("非法参数异常：{}", e.getMessage());
+        return R.fail(400, e.getMessage());
+    }
+    /**
      * 处理其他所有异常
      */
     @ExceptionHandler(Exception.class)

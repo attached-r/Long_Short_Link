@@ -53,3 +53,21 @@ url:
     domains: evil.com,malicious-site.com,phishing.com,fake-bank.com
     # 非法关键词（逗号分隔）
     keywords: porn,gambling,fraud,scam,phishing,彩票，赌博，色情
+
+# 压测配置
+loadtest:
+  small-load-requests: 100
+  medium-load-requests: 500
+  high-load-requests: 1000
+  very-high-load-requests: 2000
+  redirect-small-load-requests: 500
+  redirect-medium-load-requests: 1000
+  redirect-high-load-requests: 3000
+  thread-pool-size: 50
+  timeout-seconds: 60
+  rate-limit-test-requests: 30
+  mixed-create-count: 100
+  mixed-query-count: 300
+  mixed-redirect-count: 500
+  verify-uniqueness: true
+  generate-report: true

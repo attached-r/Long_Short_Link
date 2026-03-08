@@ -23,6 +23,7 @@
         <knife4j.version>4.4.0</knife4j.version>
         <hutool.version>5.8.40</hutool.version>
         <redisson.version>3.45.0</redisson.version>
+        <lombok.version>1.18.30</lombok.version>
     </properties>
 
     <dependencies>
@@ -84,9 +85,11 @@
         </dependency>
 
         <!-- 其他 -->
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
             <optional>true</optional>
         </dependency>
 
