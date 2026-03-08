@@ -535,3 +535,5 @@ org.springframework.web.bind.MethodArgumentNotValidException: Validation failed 
 2026-03-07 17:30:49.043 [http-nio-8080-exec-3] INFO  rj.highlink.service.impl.RedirectionServiceImpl-开始处理短链重定向请求 - shortCode: 2pYjqAFxlUk, IP: 0:0:0:0:0:0:0:1
 2026-03-07 17:30:49.046 [http-nio-8080-exec-3] DEBUG rj.highlink.service.impl.RedirectionServiceImpl-Redis 缓存命中 - shortCode: 2pYjqAFxlUk, longUrl: https://www.example.com/very/long/url/path?number=1&name=rj
 2026-03-07 17:30:49.052 [async-log-thread-118] DEBUG rj.highlink.service.impl.VisitLogServiceImpl-访问日志异步保存成功 - shortCode: 2pYjqAFxlUk, IP: 0:0:0:0:0:0:0:1
+2026-03-07 17:36:11.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2026-03-07 17:36:11.439 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.

@@ -1,0 +1,130 @@
+2026-03-08 13:43:55.237 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [rj.highlink.testService.TestStatsService]: TestStatsService does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-08 13:43:55.383 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration rj.highlink.HighlinkApplication for test class rj.highlink.testService.TestStatsService
+2026-03-08 13:43:55.808 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+2026-03-08 13:43:55.839 [main] INFO  rj.highlink.testService.TestStatsService-Starting TestStatsService using Java 17.0.18 with PID 22404 (started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-08 13:43:55.840 [main] DEBUG rj.highlink.testService.TestStatsService-Running with Spring Boot v3.3.6, Spring v6.1.15
+2026-03-08 13:43:55.841 [main] INFO  rj.highlink.testService.TestStatsService-No active profile set, falling back to 1 default profile: "default"
+2026-03-08 13:43:56.787 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-08 13:43:56.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-08 13:43:56.824 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2026-03-08 13:43:57.917 [main] INFO  rj.highlink.common.util.UrlBlackListUtil-URL 黑名单加载完成 - 域名：4个，关键词：6个
+2026-03-08 13:43:57.918 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单域名：[phishing.com, malicious-site.com, evil.com, fake-bank.com]
+2026-03-08 13:43:57.918 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单关键词：[phishing, fraud, gambling, scam, 彩票，赌博，色情, porn]
+2026-03-08 13:43:58.042 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-08 13:43:58.530 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-08 13:43:58.548 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-08 13:44:00.296 [main] INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware-Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@31ee96f4
+2026-03-08 13:44:00.657 [main] INFO  rj.highlink.testService.TestStatsService-Started TestStatsService in 5.133 seconds (process running for 6.664)
+2026-03-08 13:44:02.753 [main] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2026-03-08 13:44:02.897 [main] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@56957f08
+2026-03-08 13:44:02.898 [main] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2026-03-08 13:44:03.042 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2026-03-08 13:44:03.052 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2026-03-08 13:50:53.788 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [rj.highlink.testService.TestStatsEndpoint]: TestStatsEndpoint does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-08 13:50:53.882 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration rj.highlink.HighlinkApplication for test class rj.highlink.testService.TestStatsEndpoint
+2026-03-08 13:50:54.235 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+2026-03-08 13:50:54.267 [main] INFO  rj.highlink.testService.TestStatsEndpoint-Starting TestStatsEndpoint using Java 17.0.18 with PID 40008 (started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-08 13:50:54.267 [main] DEBUG rj.highlink.testService.TestStatsEndpoint-Running with Spring Boot v3.3.6, Spring v6.1.15
+2026-03-08 13:50:54.268 [main] INFO  rj.highlink.testService.TestStatsEndpoint-No active profile set, falling back to 1 default profile: "default"
+2026-03-08 13:50:55.186 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-08 13:50:55.189 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-08 13:50:55.238 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2026-03-08 13:50:56.260 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 0 (http)
+2026-03-08 13:50:56.275 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-auto-1"]
+2026-03-08 13:50:56.278 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-08 13:50:56.279 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-03-08 13:50:56.392 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-03-08 13:50:56.393 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1910 ms
+2026-03-08 13:50:57.169 [main] INFO  rj.highlink.common.util.UrlBlackListUtil-URL 黑名单加载完成 - 域名：4个，关键词：6个
+2026-03-08 13:50:57.169 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单域名：[phishing.com, malicious-site.com, evil.com, fake-bank.com]
+2026-03-08 13:50:57.169 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单关键词：[phishing, fraud, gambling, scam, 彩票，赌博，色情, porn]
+2026-03-08 13:50:57.296 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-08 13:50:57.826 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-08 13:50:57.854 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-08 13:50:59.500 [main] INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware-Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f303ecd
+2026-03-08 13:50:59.868 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-auto-1"]
+2026-03-08 13:50:59.892 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 58196 (http) with context path '/'
+2026-03-08 13:50:59.905 [main] INFO  rj.highlink.testService.TestStatsEndpoint-Started TestStatsEndpoint in 5.901 seconds (process running for 7.045)
+2026-03-08 13:51:02.201 [http-nio-auto-1-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-08 13:51:02.202 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-08 13:51:02.202 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-03-08 13:51:02.223 [http-nio-auto-1-exec-1] ERROR r.highlink.common.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource shortlink/stats.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:586)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-03-08 13:51:02.483 [http-nio-auto-1-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2026-03-08 13:51:02.649 [http-nio-auto-1-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c04b3ef
+2026-03-08 13:51:02.651 [http-nio-auto-1-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2026-03-08 13:51:03.762 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2026-03-08 13:51:03.767 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2026-03-08 13:56:35.782 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+2026-03-08 13:56:35.808 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 17.0.18 with PID 2572 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-08 13:56:35.809 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v3.3.6, Spring v6.1.15
+2026-03-08 13:56:35.809 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-08 13:56:36.298 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-08 13:56:36.300 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-08 13:56:36.327 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2026-03-08 13:56:36.795 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-08 13:56:36.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-08 13:56:36.805 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-08 13:56:36.805 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-03-08 13:56:36.849 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-03-08 13:56:36.849 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1012 ms
+2026-03-08 13:56:37.137 [main] INFO  rj.highlink.common.util.UrlBlackListUtil-URL 黑名单加载完成 - 域名：4个，关键词：6个
+2026-03-08 13:56:37.137 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单域名：[phishing.com, malicious-site.com, evil.com, fake-bank.com]
+2026-03-08 13:56:37.137 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单关键词：[phishing, fraud, gambling, scam, 彩票，赌博，色情, porn]
+2026-03-08 13:56:37.183 [main] INFO  org.redisson.Version-Redisson 3.45.0
+2026-03-08 13:56:37.391 [redisson-netty-4-6] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-08 13:56:37.406 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-08 13:56:38.088 [main] INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware-Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62c5bbdc
+2026-03-08 13:56:38.228 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-08 13:56:38.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-08 13:56:38.243 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 2.712 seconds (process running for 3.398)
+2026-03-08 13:56:44.210 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-08 13:56:44.210 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-08 13:56:44.211 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-08 13:56:44.307 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2026-03-08 13:56:44.428 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a0bef98
+2026-03-08 13:56:44.429 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2026-03-08 13:58:15.137 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2026-03-08 13:58:15.144 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.

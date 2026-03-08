@@ -9,11 +9,15 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import rj.highlink.common.result.R;
 import rj.highlink.entity.dto.CreateShortLinkDTO;
+import rj.highlink.entity.dto.StatsQueryDTO;
 import rj.highlink.entity.vo.ShortLinkVO;
+import rj.highlink.entity.vo.StatsVO;
 import rj.highlink.service.RedirectionService;
 import rj.highlink.service.ShortLinkService;
+import rj.highlink.service.StatsService;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 /**
  * 短链接控制器
@@ -27,6 +31,7 @@ public class ShortLinkController {
 
     private final ShortLinkService shortLinkService;
     private final RedirectionService redirectionService;
+    private final StatsService statsService;
 
     /**
      * 一：创建短链接
@@ -197,5 +202,40 @@ public class ShortLinkController {
         String validApiKey = "your-secret-api-key"; // 预设的有效 API Key
 
         return apiKey != null && !apiKey.isBlank() && apiKey.equals(validApiKey);
+    }
+
+    /**
+     * 五：查询短链接统计数据
+     * GET /shortlink/stats/{shortCode}
+     *
+     * @param shortCode 短链码
+     * @param startTime 开始时间（可选，格式：yyyy-MM-dd HH:mm:ss）
+     * @param endTime 结束时间（可选，格式：yyyy-MM-dd HH:mm:ss）
+     * @return 统计数据（PV/UV）
+     */
+    @GetMapping("/stats/{shortCode}")
+    public R<StatsVO> getStats(
+            @PathVariable String shortCode,
+            @RequestParam(required = false) String startTime,
+            @RequestParam(required = false) String endTime) {
+        try {
+            StatsQueryDTO dto = new StatsQueryDTO();
+            dto.setShortCode(shortCode);
+
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            if (startTime != null && !startTime.isBlank()) {
+                dto.setStartTime(LocalDateTime.parse(startTime, formatter));
+            }
+            if (endTime != null && !endTime.isBlank()) {
+                dto.setEndTime(LocalDateTime.parse(endTime, formatter));
+            }
+
+            StatsVO statsVO = statsService.getStats(dto);
+            return R.ok("查询成功", statsVO);
+
+        } catch (Exception e) {
+            log.error("查询统计数据异常：{}", shortCode, e);
+            return R.fail("查询统计数据失败");
+        }
     }
 }

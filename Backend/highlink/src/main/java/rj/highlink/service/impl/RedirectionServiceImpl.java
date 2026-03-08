@@ -15,6 +15,7 @@ import rj.highlink.entity.po.ShortLinkVisitPo;
 import rj.highlink.mapper.ShortLinkMapper;
 import rj.highlink.mapper.ShortLinkVisitMapper;
 import rj.highlink.service.RedirectionService;
+import rj.highlink.service.StatsService;
 import rj.highlink.service.VisitLogService;
 import rj.highlink.utils.BloomFilterUtil;
 import rj.highlink.utils.RedisUtil;
@@ -38,6 +39,7 @@ import java.util.concurrent.TimeUnit;
  *
  * 二：异步记录访问日志
  * 返回长链接 or null（404）
+ * 每次记录日志时，需记录访问数据
  */
 @Slf4j
 @Service
@@ -49,6 +51,7 @@ public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLi
     private final BloomFilterUtil bloomFilterUtil;  // 布隆过滤器
     private final VisitLogService visitLogService;  // 访问日志服务
     private final HttpServletRequest request;  // 自动注入请求对象
+    private final StatsService statsService;  // 统计服务
 
     private static final String LOCK_KEY_PREFIX = "lock:code:"; // 锁前缀
 
@@ -79,6 +82,8 @@ public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLi
             log.debug("Redis 缓存命中 - shortCode: {}, longUrl: {}", shortCode, longUrl);
             // 异步记录访问日志
             visitLogService.saveVisitLog(shortCode, clientIp, userAgent);
+            // 记录统计数据,计数
+            statsService.recordVisit(shortCode, clientIp);
             return longUrl;
         }
 
@@ -98,6 +103,8 @@ public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLi
                         log.debug("双检缓存命中 - shortCode: {}", shortCode);
                         // 异步记录访问日志
                         visitLogService.saveVisitLog(shortCode, clientIp, userAgent);
+                        // 统计访问数据,计数
+                        statsService.recordVisit(shortCode, clientIp);
                         return longUrl;
                     }
 
@@ -129,6 +136,8 @@ public class RedirectionServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLi
 
                     // 8. 异步记录访问日志, 改为调用VisitLogService
                     visitLogService.saveVisitLog(shortCode, clientIp, userAgent);
+                        // 统计访问数据,计数
+                    statsService.recordVisit(shortCode, clientIp);
 
                     // 9. 返回长链接
                     log.info("重定向成功 - shortCode: {}, longUrl: {}", shortCode, shortLinkPo.getLongUrl());
