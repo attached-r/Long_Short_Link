@@ -1,0 +1,41 @@
+2026-03-12 12:27:18.260 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+2026-03-12 12:27:18.291 [main] INFO  rj.highlink.HighlinkApplication-Starting HighlinkApplication using Java 17.0.18 with PID 39620 (D:\ProjectBySelf\Long_Short_Link\Backend\highlink\target\classes started by attached in D:\ProjectBySelf\Long_Short_Link\Backend\highlink)
+2026-03-12 12:27:18.293 [main] DEBUG rj.highlink.HighlinkApplication-Running with Spring Boot v3.3.6, Spring v6.1.15
+2026-03-12 12:27:18.293 [main] INFO  rj.highlink.HighlinkApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-12 12:27:18.899 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-12 12:27:18.902 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-12 12:27:18.932 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2026-03-12 12:27:19.671 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-12 12:27:19.687 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 12:27:19.689 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-12 12:27:19.689 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-03-12 12:27:19.774 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-03-12 12:27:19.774 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1446 ms
+2026-03-12 12:27:20.499 [main] INFO  rj.highlink.common.util.UrlBlackListUtil-URL 黑名单加载完成 - 域名：4个，关键词：6个
+2026-03-12 12:27:20.499 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单域名：[phishing.com, malicious-site.com, evil.com, fake-bank.com]
+2026-03-12 12:27:20.501 [main] DEBUG rj.highlink.common.util.UrlBlackListUtil-黑名单关键词：[phishing, fraud, gambling, scam, 彩票，赌博，色情, porn]
+2026-03-12 12:27:20.591 [main] INFO  org.redisson.Version-Redisson 3.27.0
+2026-03-12 12:27:20.818 [redisson-netty-4-5] INFO  org.redisson.connection.ConnectionsHolder-1 connections initialized for localhost/127.0.0.1:6379
+2026-03-12 12:27:20.835 [redisson-netty-4-14] INFO  org.redisson.connection.ConnectionsHolder-5 connections initialized for localhost/127.0.0.1:6379
+2026-03-12 12:27:21.900 [main] INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware-Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18e8473e
+2026-03-12 12:27:22.057 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 12:27:22.065 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 12:27:22.071 [main] INFO  rj.highlink.HighlinkApplication-Started HighlinkApplication in 4.099 seconds (process running for 5.599)
+2026-03-12 12:32:16.668 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 12:32:16.668 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-12 12:32:16.669 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-12 12:32:16.901 [http-nio-8080-exec-1] DEBUG r.highlink.common.interceptor.RateLimitInterceptor-限流检查通过 - IP: 0:0:0:0:0:0:0:1, 接口：/shortlink/create, 限流 key: 0:0:0:0:0:0:0:1:create
+2026-03-12 12:32:17.062 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2026-03-12 12:32:17.211 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e3b9d96
+2026-03-12 12:32:17.211 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2026-03-12 12:32:17.243 [http-nio-8080-exec-1] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-查询数据库结果：null
+2026-03-12 12:32:17.288 [http-nio-8080-exec-1] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-插入数据库结果：ShortLinkPo(id=15339, shortCode=2q6mfEQ1dAs, longUrl=https://example.com/very/long/url/name=rj, urlHash=68fce4981fce0836e2bd6675370f71d7, status=1, expireTime=2026-03-19T12:32:17.274356200, createTime=2026-03-12T12:32:17.274356200, updateTime=2026-03-12T12:32:17.274356200)
+2026-03-12 12:32:17.325 [http-nio-8080-exec-1] INFO  rj.highlink.service.impl.ShortLinkServiceImpl-写入 Redis 结果：2q6mfEQ1dAs
+2026-03-12 12:32:41.896 [http-nio-8080-exec-2] INFO  rj.highlink.service.impl.RedirectionServiceImpl-开始处理短链重定向请求 - shortCode: 2q6mfEQ1dAs, IP: 0:0:0:0:0:0:0:1
+2026-03-12 12:32:41.915 [http-nio-8080-exec-2] DEBUG rj.highlink.service.impl.RedirectionServiceImpl-Redis 缓存命中 - shortCode: 2q6mfEQ1dAs, longUrl: https://example.com/very/long/url/name=rj
+2026-03-12 12:32:41.927 [async-log-thread-106] DEBUG rj.highlink.service.impl.VisitLogServiceImpl-访问日志异步保存成功 - shortCode: 2q6mfEQ1dAs, IP: 0:0:0:0:0:0:0:1
+2026-03-12 12:34:54.042 [http-nio-8080-exec-5] INFO  rj.highlink.service.impl.RedirectionServiceImpl-开始处理短链重定向请求 - shortCode: 2q6mfEQ1dAs, IP: 0:0:0:0:0:0:0:1
+2026-03-12 12:34:54.048 [http-nio-8080-exec-5] DEBUG rj.highlink.service.impl.RedirectionServiceImpl-Redis 缓存命中 - shortCode: 2q6mfEQ1dAs, longUrl: https://example.com/very/long/url/name=rj
+2026-03-12 12:34:54.054 [async-log-thread-107] DEBUG rj.highlink.service.impl.VisitLogServiceImpl-访问日志异步保存成功 - shortCode: 2q6mfEQ1dAs, IP: 0:0:0:0:0:0:0:1
+2026-03-12 12:35:45.634 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2026-03-12 12:35:45.642 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
